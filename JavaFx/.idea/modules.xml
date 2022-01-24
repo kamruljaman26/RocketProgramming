@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaFx.iml" filepath="$PROJECT_DIR$/.idea/JavaFx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstName_lastName_Part2/firstName_lastName_Part2.iml" filepath="$PROJECT_DIR$/firstName_lastName_Part2/firstName_lastName_Part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstName_lastName_Part3/firstName_lastName_Part3.iml" filepath="$PROJECT_DIR$/firstName_lastName_Part3/firstName_lastName_Part3.iml" />
+    </modules>
+  </component>
+</project>
