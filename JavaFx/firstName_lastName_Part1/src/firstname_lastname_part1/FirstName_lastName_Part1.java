@@ -26,7 +26,7 @@ public class FirstName_lastName_Part1 extends Application {
     public static void main(String[] args) {
 
         launch(args);
-        // TODO code application logic here
+
     }
 
     @Override
@@ -40,10 +40,10 @@ public class FirstName_lastName_Part1 extends Application {
         Button start = new Button("Start");
         Button stop = new Button("Stop");
         Button reset = new Button("Reset");
-        
+
         // Here We Use Key Event For Button
-       Submit.setOnAction(new EventHandler<ActionEvent>() {
-            
+        Submit.setOnAction(new EventHandler<ActionEvent>() {
+
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Submited");
@@ -137,7 +137,6 @@ public class FirstName_lastName_Part1 extends Application {
         return line;
     }
     // In This method We get Ellispse Shape 
-
 
     public Ellipse getEllipse() {
         Ellipse ellipse = new Ellipse(30, 14, 7, 17);

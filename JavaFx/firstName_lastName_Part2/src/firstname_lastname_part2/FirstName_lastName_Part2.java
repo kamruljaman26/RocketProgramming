@@ -42,9 +42,9 @@ public class FirstName_lastName_Part2 extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         // here we set images for our app background
-        Image backimg = new Image("https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/6346dfed21be301eebf6f426c8b2bdf6-1636366715502/8d7ef08b-513b-422b-b3ff-b9bd573fc16f.jpg");
+        Image backimg = new Image("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
         // here we set images for useing imagesview class
-        Image imageVImage = new Image("https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/6346dfed21be301eebf6f426c8b2bdf6-1636366715502/8d7ef08b-513b-422b-b3ff-b9bd573fc16f.jpg");
+        Image imageVImage = new Image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw4Xaf0afxbWT0zXRo6apRDS4y8jJPcM0dWg&usqp=CAU");
 
         // Here we use  At list three method of imageView 
         ImageView imageView = new ImageView();

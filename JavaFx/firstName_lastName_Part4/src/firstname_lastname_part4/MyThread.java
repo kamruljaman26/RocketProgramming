@@ -1,7 +1,6 @@
 
 package firstname_lastname_part4;
 
-import java.util.Random;
 
 public class MyThread implements Runnable{
 
@@ -17,6 +16,7 @@ public class MyThread implements Runnable{
         this.second = second;
     }
 
+    //Run Method for calculate Since MIdnight 
     @Override
     public void run() {
         try {

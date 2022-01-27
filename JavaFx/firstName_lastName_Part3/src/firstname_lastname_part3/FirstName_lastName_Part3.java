@@ -75,12 +75,12 @@ public class FirstName_lastName_Part3 extends Application {
         age.valueProperty().addListener(
                 new ChangeListener<Number>() {
 
-                    public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
+            public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
 
-                        Age = newValue.intValue();
+                Age = newValue.intValue();
 
-                    }
-                });
+            }
+        });
 
         //lebel and Button  for Add student and reset screen 
         addStudent = new Button("Add Student");
@@ -106,7 +106,7 @@ public class FirstName_lastName_Part3 extends Application {
         sub2.requestFocus();
         sub3.requestFocus();
         sub4.requestFocus();
-
+        
         sub1.setOnAction(action -> {
             subject1 = sub1.getText();
             sub2.setSelected(false);
@@ -138,12 +138,7 @@ public class FirstName_lastName_Part3 extends Application {
 
         //lebel and ListView  for Liked Programing Language 
         Label programingLanguage = new Label("Programing Language U like :");
-        /*
-        listView.getItems().add("Java");
-        listView.getItems().add("C");
-        listView.getItems().add("C++");
-        listView.getItems().add("PHP");
-         */
+
         ObservableList<String> items = FXCollections.observableArrayList("Java", "C", "C++", "PHP");
 
         HashSet<String> language = new HashSet<>();
@@ -154,7 +149,6 @@ public class FirstName_lastName_Part3 extends Application {
             language.add(selectedItem);
 
         });
-
 
         // add the student to student list
         addStudent.setOnAction((ActionEvent event) -> {
@@ -179,6 +173,7 @@ public class FirstName_lastName_Part3 extends Application {
             if (sub4.isSelected()) {
                 subjectStr = subject4;
             }
+
             subject.add(subjectStr);
 
             Student studentdetails = new Student();
@@ -221,6 +216,7 @@ public class FirstName_lastName_Part3 extends Application {
         launch(args);
     }
 
+    //Here we get gender is male or female
     String getGender() {
         if (genderMale.isSelected()) {
             return "Male";
@@ -231,6 +227,7 @@ public class FirstName_lastName_Part3 extends Application {
         }
     }
 
+    //Clear Field Useing Reset Button
     public void FieldClear() {
 
         firstNameTextField.clear();
@@ -239,8 +236,6 @@ public class FirstName_lastName_Part3 extends Application {
         sub2.setSelected(false);
         sub2.setSelected(false);
         sub2.setSelected(false);
-        students.clear();
-
 
     }
 
