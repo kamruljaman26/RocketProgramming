@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="firstName_lastName_Part3.jnlp">
+  <information>
+    <title>firstName_lastName_Part3</title>
+    <vendor>Hp</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="firstName_lastName_Part3.jar" size="7433" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="firstName_lastName_Part3" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mohammad_saifulalam_part3.FirstName_lastName_Part3"  name="firstName_lastName_Part3" />
+  <update check="always"/>
+</jnlp>
